@@ -1,6 +1,7 @@
 {
   "name": "react-facerecognitionapp",
   "version": "0.1.0",
+  "homepage": "https://github.com/fadilnatakusumah/nodejs-facedetection-api",
   "private": true,
   "dependencies": {
     "clarifai": "^2.9.0",
