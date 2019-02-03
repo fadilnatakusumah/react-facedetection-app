@@ -5,6 +5,7 @@
   "private": true,
   "dependencies": {
     "clarifai": "^2.9.0",
+    "gh-pages": "^2.0.1",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-particles-js": "^2.3.0",
@@ -13,7 +14,8 @@
     "tachyons": "^4.11.1"
   },
   "scripts": {
-    "deploy": "gh-pages-deploy",
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
